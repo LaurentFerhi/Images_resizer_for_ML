@@ -51,4 +51,4 @@ os.chdir(initial_path)
 # Print size of new vid folder
 os.chdir('resized_videos')
 folder_vid_size = sum(os.path.getsize(f) for f in os.listdir() if os.path.isfile(f))
-print('\nTaille du dossier resized_images: {} Mo'.format(round(folder_vid_size/1E6,2)))
+print('\nTaille du dossier resized_videos: {} Mo'.format(round(folder_vid_size/1E6,2)))
